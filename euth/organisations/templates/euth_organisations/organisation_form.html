@@ -21,7 +21,7 @@
             {% endif %}
             {% render_field field class="form-control" %}
             {% for error in field.errors %}
-            <span class="help-block">{{ error }}</span>
+            <span class="form-text">{{ error }}</span>
             {% endfor %}
         </div>
         {% endfor %}
@@ -42,7 +42,7 @@
                 {% endif %}
                 {% render_field field class="form-control" %}
                 {% for error in field.errors %}
-                <span class="help-block">{{ error }}</span>
+                <span class="form-text">{{ error }}</span>
                 {% endfor %}
             </div>
             {% endfor %}
