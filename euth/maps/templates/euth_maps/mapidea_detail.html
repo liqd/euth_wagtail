@@ -59,7 +59,7 @@
             <div class="avatar-small">
                 <span class="circled circled-xs" style="background-image: url({% get_avatar object.creator 'avatar_small' %})"></span>
                 <a href="{% url 'profile' object.creator.username %}" class="name">{{ object.creator.username }}</a>
-                {% if author_is_moderator %} <span class="label label-subtle">{% trans 'Moderator' %}</span> {% endif %}
+                {% if author_is_moderator %} <span class="badge badge-subtle">{% trans 'Moderator' %}</span> {% endif %}
             </div>
 
             <div class="idea-description">
