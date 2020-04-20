@@ -2,6 +2,7 @@ const webpack = require('webpack')
 const path = require('path')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const autoprefixer = require('autoprefixer')
 
 /** How do we use webpack to handle static files?
  *
@@ -28,7 +29,7 @@ module.exports = {
       './euth_wagtail/assets/js/init-picker.js',
       'datepicker/css/datepicker.min.css'
     ],
-    vendor: [
+    vendor:
       'react',
       'react-dom',
       'react-flip-move',

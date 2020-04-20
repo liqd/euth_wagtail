@@ -1,8 +1,13 @@
-@import "../fonts/fontcustom/fontcustom.css";
+// @import "../fonts/fontcustom/fontcustom.css";
+@import "node_modules/bootstrap/scss/functions";
+
+@import "core/bootstrap-variables";
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
 
 // Core
 @import "core/fonts";
-@import "core/bootstrap";
+// @import "core/bootstrap";
 @import "core/mixins";
 @import "core/type";
 @import "core/containers";
