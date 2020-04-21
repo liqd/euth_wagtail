@@ -1,4 +1,5 @@
 /* global location */
+
 var widget = require('adhocracy4').widget
 var ReactComments = require('adhocracy4').comments
 var ReactParagraphs = require('../../../documents/static/documents/ParagraphBox.jsx')
@@ -8,9 +9,6 @@ var ReactFollow = require('../../../follows/static/follows/react_follows.jsx')
 var ReactLanguageSwitch = require('../../../dashboard/static/language_switch/react_language_switch.jsx')
 var ReactUserList = require('../../../dashboard/static/user_list/react_user_list.jsx')
 var $ = window.jQuery = window.$ = require('jquery')
-
-// load bootstrap components
-require('bootstrap')
 
 require('../../../../euth_wagtail/assets/js/euth_wagtail')
 
